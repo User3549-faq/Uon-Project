@@ -1,0 +1,33 @@
+body{
+	background-image:url("BlogPost-skillDiversity.jpg");
+	background-repeat:no-repeat;
+	text-align:center;
+	font-family:'Bahnschrift','Bahnschrift semi-condensed';
+}
+
+div{
+	background-image:url("white-cubes-3d-background.jpg");
+	margin:auto;
+	width:700px;
+}
+
+table{
+	margin:auto;
+}
+
+h1{
+	font-family:'Lemon milk','Lemon milk bold';
+	background-color:grey;
+	width:400px;\
+	margin:auto;
+	text-align:center;
+	background-position:center;
+}
+
+.div{
+	background-image:url("assgn.jpg");
+	background-position:center;
+	height:75px;
+	width:400px;
+	margin:auto;
+}

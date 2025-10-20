@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lounge room</title>
+<h1><u>Lounge room prototype sign in</u></h1>
+<link href="Lounge room.css" rel="stylesheet">
+</head>
+<body>
+<div>
+<p>
+Welcome to the lounge room.<br>
+Here is where you will be working on group projects<br>
+With  your fellow colleagues<br>
+<br>
+If you want to join a meeting,<br>
+Log in to the meeting room and select a schedule.   
+</p>
+<form method="GET">
+<div class="div">
+<label for="Username" required>Enter your username:</label>
+<input type="text" id="username" required></input>
+</div>
+<div class="div">
+<label for="password" required>Enter your password:</label>
+<input type="password" id="password" required></input><br>
+<br>
+</div>
+<br>
+<br>
+<table>
+<table border="1">
+<tr>
+<th>Select your schedule</th>
+</tr>
+<tr>
+<td>
+<input type="checkbox" [name="10am-1pm"]>10am-1pm</input><br>
+<input type="checkbox" [name="2pm-5pm"]>2pm-5pm</input><br>
+</td>
+</tr>
+</table>
+</div>
+<br>
+<button>Join room</button>
+</form>
+</body>
+</html>

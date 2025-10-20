@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>meeting room</title>
+<h1><u>Meeting room prototype sign in</u></h1>
+<link href="Meeting room.css" rel="stylesheet">
+</head>
+<body>
+<div>
+<p>
+Welcome to the meetings room.<br>
+Here is where the meeting host(usually the boss)will arrange<br>
+Meetings<br>
+If you want to join a meeting,<br>
+Log in to the meeting room and select a schedule.   
+</p>
+<form method="GET">
+<div class="div">
+<label for="Username">Enter your username:</label>
+<input type="text" id="username" required></input>
+</div>
+<div class="div">
+<label for="password">Enter your password:</label>
+<input type="password" id="password" required></input><br>
+<br>
+</div>
+<br>
+<br>
+<table>
+<table border="1">
+<tr>
+<th>Select your schedule</th>
+</tr>
+<tr>
+<td>
+<input type="checkbox" [name="10am-1pm"] >10am-1pm</input><br>
+<input type="checkbox" [name="2pm-5pm"] >2pm-5pm</input><br>
+</td>
+</tr>
+</table>
+</div>
+<br>
+<button>Join room</button>
+</form>
+</body>
+</html>
+
